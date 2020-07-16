@@ -36,7 +36,7 @@ impl fmt::Display for Version {
             self.minor,
             self.patch,
             match self.commit {
-                None => "devbuild".to_string(),
+                None => "feedc0de".to_string(),
                 Some(commit) => format!("{:08x}", commit),
             }
         )
